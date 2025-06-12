@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+a1-venv/
+
+# Secrets
+.env
+
+# Reports
+*_report.md
+*_report.csv
+*_report.html
+
+# Other
+.DS_Store
