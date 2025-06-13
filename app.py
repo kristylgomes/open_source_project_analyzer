@@ -18,7 +18,7 @@ st.set_page_config(page_title="GitHub Project Analyzer", layout="wide")
 
 st.title("🔍 Open Source Project Analyzer")
 
-org = st.text_input("Enter a GitHub organization name (e.g., liquibase, apache):")
+org = st.text_input("Enter a GitHub organization name (e.g. apache):")
 start_time = time.time()  # Start timer
 if org:
     with st.spinner("Fetching and analyzing repositories..."):

@@ -1,6 +1,6 @@
 # 🧠 Open Source Project Analyzer
 
-A Python CLI tool that analyzes a GitHub organization's public repositories and generates reports with detailed metadata and health insights.
+A Python application with a Streamlit web interface that analyzes a GitHub organization's public repositories and generates reports with detailed with detailed metadata and health insights.
 
 ---
 
@@ -42,10 +42,12 @@ open_source_project_analyzer/
 │   ├── metrics_calculator.py    # Repo health scoring
 │   ├── report_generator.py      # Markdown, CSV, HTML reports
 │   └── __init__.py
-├── cli.py                       # Entry point for CLI
+├── app.py                       # Streamlit web app
+├── cli.py                       # CLI version (optional)
 ├── .env                         # GitHub token (not committed)
 ├── .gitignore
 ├── README.md
+├── LICENSE
 ├── requirements.txt
 ```
 
@@ -88,6 +90,16 @@ python cli.py
 ```
 
 You'll be prompted for a GitHub organization name. Reports will be saved in the current directory.
+
+---
+
+## ▶️ Run the Web App
+
+```bash
+streamlit run app.py
+```
+
+The app will launch in your default web browser at `http://localhost:8501`.
 
 ---
 
