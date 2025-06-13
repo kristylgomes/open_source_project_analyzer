@@ -1,6 +1,6 @@
 # 🧠 Open Source Project Analyzer
 
-A Python application with a Streamlit web interface that analyzes a GitHub organization's public repositories and generates reports with detailed with detailed metadata and health insights.
+A Python application with a Streamlit web interface that analyzes a GitHub organization's public repositories and generates reports with detailed metadata and health insights.
 
 ---
 
