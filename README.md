@@ -111,12 +111,6 @@ The app will launch in your default web browser at `http://localhost:8501`.
 
 ---
 
-## 👩‍💻 Author
-
-Built by Kristyl Gomes.
-
----
-
 ## 📜 License
 
 Apache-2.0 License. See `LICENSE` file for details.
